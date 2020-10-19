@@ -7,7 +7,8 @@
   --main_light: rgb(255,255,255);
   --shadow: rgb(206,200,205);
   --neon: rgb(255,170,33);
-  --details: rgb(109,15,128);
+  /* --details: rgb(109,15,128); */
+  --details: rgb(94,45,150);
 }
 
 * {
@@ -21,7 +22,24 @@
 body {
   font-family: var(--main_font);
   color: var(--main_light);
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--main_dark);
   min-width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main_light);
+  font-family: var(--main_font);
+}
+
+ul {
+  list-style: none;
+}
+
+.App {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1%;
 }
