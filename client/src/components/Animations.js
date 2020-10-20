@@ -2,7 +2,7 @@ import React from 'react';
 
 const Animations = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Tu będą animacje</h1>
     </div>
   );
