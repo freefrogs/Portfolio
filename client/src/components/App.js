@@ -13,7 +13,7 @@ import '../styles/App.css';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <BrowserRouter>
           <div>
             <Nav />

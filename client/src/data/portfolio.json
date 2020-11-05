@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "keywords": "2019 app application e-commerce javascript axios js react mongodb redux express rwd responsive api html css webpack nodejs dom events promise babel",
+    "img": "/portfolio/project1.png",
+    "url": "https://thinktree-e-shop.herokuapp.com/",
+    "desc": "Group project, app based on MERN stack in which you are able to register, login and add products to the cart after authorization. App contains all main features of typicall e-commerse web-site."
+  },
+  {
+    "id": 2,
+    "keywords": "2019 app application javascript js jquery ajax crud search bootstrap mongodb express rwd responsive api html css nodejs dom events promise",
+    "img": "/portfolio/project2.png",
+    "url": "https://bookstore-seven.herokuapp.com/",
+    "desc": "Group project, app (with books database) in which you are able to add / edit / delete books as editor (authorization) and add comment and rating after registration and login (authentication)."
+  },
+  {
+    "id": 3,
+    "keywords": "2019 app application javascript js api search rwd responsive html css nodejs dom events promise webpack babel ",
+    "img": "/portfolio/project18.png",
+    "url": "https://freefrogs.github.io/CookBook/",
+    "desc": "Group project, app (connect and get data from external APIs) that helps choose meal, cocktail or dessert recipes. It also provides a 'culinary curiosity' and animation (look at pan animation or page title)."
+  },
+  {
+    "id": 4,
+    "keywords": "2020 app application pug javascript js mongodb express rwd responsive api html css nodejs dom events promise",
+    "img": "/portfolio/project20.png",
+    "url": "https://restore-test.herokuapp.com/",
+    "desc": "City Game group project prepared as a volunteer activity for the Habitat for Humanity Poland (nonprofit organization), app in which you are able to register, login and get points and badges."
+  },
+  {
+    "id": 5,
+    "keywords": "2018 html sass scss nodejs landing page javascript js rwd responsive",
+    "img": "/portfolio/project3.png",
+    "url": "https://freefrogs.github.io/Landing_page_3/",
+    "desc": "Landing page with adaptation to different screen sizes (desktop first), simple slider, modal (click on handset icon on the slider), hamburger menu for mobile screen."
+  },
+  {
+    "id": 6,
+    "keywords": "2019 html sass scss nodejs landing page javascript js rwd responsive jquery bootstrap",
+    "img": "/portfolio/project4.png",
+    "url": "https://freefrogs.github.io/Landing_page_4/",
+    "desc": "Landing page with adaptation to different screen sizes (desktop first) and fallowing components: Carousel, Navbar with dropdown, Scrollspy, Card, Modal, Tooltip."
+  },
+  {
+    "id": 7,
+    "keywords": "2019 html css landing page javascript js rwd responsive",
+    "img": "/portfolio/project5.png",
+    "url": "https://freefrogs.github.io/Landing_page_forKids/",
+    "desc": "Landing page with adaptation to different screen sizes (desktop first), hamburger menu for mobile screen and animations for fallowing elements: background, navigation (including hamburger), logo & icons."
+  },
+  {
+    "id": 8,
+    "keywords": "2019 html css landing page javascript js rwd responsive canvas dom events nodejs",
+    "img": "/portfolio/project6.png",
+    "url": "https://freefrogs.github.io/EX_Canvas/",
+    "desc": "Drawings - simple webpage using HTML5 Canvas with adaptation to different screen sizes."
+  },
+  {
+    "id": 9,
+    "keywords": "2020 html sass scss nodejs landing page javascript js rwd responsive api bem bootstrap dom events promise",
+    "img": "/portfolio/project19.png",
+    "url": "https://freefrogs.github.io/Homework/",
+    "desc": "Training project as a part of Daftacademy Front-end Level UP 2020. Simple landing page with adaptation to different screen sizes, connect and get data from external APIs."
+  },
+  {
+    "id": 10,
+    "keywords": "html css landing page node javascript js rwd responsive search",
+    "img": "/portfolio/project21.png",
+    "url": "https://freefrogs.github.io/AboutMe/",
+    "desc": "Training project as a part of Bootcamp CodersCamp (2019), my first site AboutMe. Simple landing page with few, nice animations"
+  },
+  {
+    "id": 11,
+    "keywords": "html css landing page javascript js rwd responsive jquery",
+    "img": "/portfolio/project7.png",
+    "url": "https://freefrogs.github.io/First-website",
+    "desc": "Landing page with adaptation to different screen sizes (desktop first). My first shy programming steps. This was my first website, created at the end of 2017."
+  },
+  {
+    "id": 12,
+    "keywords": "2017 bootstrap html sass scss javascript js nodejs",
+    "img": "/portfolio/project8.png",
+    "url": "https://freefrogs.github.io/EX_JS/",
+    "desc": "Effect of JavaScript learning at the end of 2017, simple game – Rock, Paper, Scissors."
+  },
+  {
+    "id": 13,
+    "keywords": "html sass scss javascript js nodejs jquery",
+    "img": "/portfolio/project9.png",
+    "url": "https://freefrogs.github.io/EX_jQuery/",
+    "desc": "Effect of jQuery & JavaScript learning at the beginning of 2018. My first carousel."
+  },
+  {
+    "id": 14,
+    "keywords": "html sass scss javascript js nodejs jquery ajax oop",
+    "img": "/portfolio/project10.png",
+    "url": "https://freefrogs.github.io/EX_OOP_JS/",
+    "desc": "Effect of Object Oriented Programming with JavaScript learning at the beginning of 2018. My first Kanban board."
+  },
+  {
+    "id": 15,
+    "keywords": "2018 html sass scss javascript js nodejs landing page rwd responsive",
+    "img": "/portfolio/project11.png",
+    "url": "https://freefrogs.github.io/Landing_page_1/",
+    "desc": "Simple landing page with adaptation to different screen sizes (desktop first)."
+  },
+  {
+    "id": 16,
+    "keywords": "2018 html sass scss javascript js nodejs landing page rwd responsive",
+    "img": "/portfolio/project12.png",
+    "url": "https://freefrogs.github.io/Landing_page_2/",
+    "desc": "Landing page with adaptation to different screen sizes (desktop first)."
+  },
+  {
+    "id": 17,
+    "keywords": "babel react javascript js nodejs api html css",
+    "img": "/portfolio/project13.png",
+    "url": "https://freefrogs.github.io/EX_ES6/",
+    "desc": "Effect of ES6 & React learning in 2018. Simple searching github users machine using GitHub API."
+  },
+  {
+    "id": 18,
+    "keywords": "babel webpack react javascript js nodejs api html css",
+    "img": "/portfolio/project15.png",
+    "url": "https://freefrogs.github.io/EX_Webpack/",
+    "desc": "Effect of Webpack & React learning in 2018. Simple interactive To Do List application."
+  },
+  {
+    "id": 19,
+    "keywords": "react redux javascript js nodejs html css bootstrap",
+    "img": "/portfolio/project16.png",
+    "url": "https://freefrogs.github.io/EX_React-router/",
+    "desc": "Effect of React-router with React & Redux learning in 2018. Simple application with searching engine (by country name)."
+  },
+  {
+    "id": 20,
+    "keywords": "react javascript js nodejs html css",
+    "img": "/portfolio/project17.png",
+    "url": "https://guarded-tor-43432.herokuapp.com/",
+    "desc": "Effect of React, JavaScript learning in 2018. Sudoku riddle base on npm package sudoku-umd. Creating code based on npm documentation."
+  }
+]
