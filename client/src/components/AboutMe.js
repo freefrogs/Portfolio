@@ -30,17 +30,18 @@ const AboutMe = () => {
           <span>m</span>
           <span>e</span>
         </h1>
-        <p>
+        <p className="animated_letters">
+          <span className="show"><br />
           Do you know this feeling of enthusiasm when you do something that pleases you. You can sit over this for hours, from morning till evening. The need to implement assumptions is more important then the world that surrounds you. This is my attitude towards programming.
-          <br />
-          I try not to stand still, I love to explore new topics.
-          <br />
-          In addition to programming, I am also interested in computer graphics, animation and video editing.
-          <br />
-          Privately, I am a optimistic bookworm.
-          <br />
-          I like to create new things. You can see my works on&nbsp;
-          <a href="https://www.youtube.com/channel/UCH0oK8T2VmR6S6QAX8e3qwA" target="_blank" rel="noopener noreferrer">youtube channel</a>.
+          <br /><br /></span>
+          <span className="show show1"><span className="highlighted">I</span> try not to stand still, I<span className="highlighted"> love</span> to explore new topics.
+          <br /><br /></span>
+          <span className="show show2">In addition to <span className="highlighted">programming</span>, I am also interested in computer graphics, animation and video editing.
+          <br /><br /></span>
+          <span className="show show3">Privately, I am a optimistic bookworm.
+          <br /><br /></span>
+          <span className="show show4">I like to create new things. You can see my works on&nbsp;
+          <a href="https://www.youtube.com/channel/UCH0oK8T2VmR6S6QAX8e3qwA" target="_blank" rel="noopener noreferrer">youtube channel</a>.</span>
         </p>
       </div>
       <div className="skills">

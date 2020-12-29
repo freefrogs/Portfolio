@@ -97,18 +97,22 @@ ul {
   overflow: hidden;
 }
 
+.highlighted {
+  transition: 0.4s ease-in-out;
+}
+
 .jello_title h1 {
   font-size: 3rem;
   letter-spacing: 0.2rem;
 }
 
-.jello_title span {
+.jello_title h1 span {
   display: inline-block;
   transition: .5s ease-in-out;
   cursor: default;
 }
 
-.jello_title span:hover {
+.jello_title h1 span:hover {
   animation: jello 0.9s ease-in-out both;
   text-shadow: 0 0 20px var(--neon);
 }

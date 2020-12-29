@@ -6,16 +6,39 @@
   grid-gap: 20px;
 }
 .about_me a {
-  color: var(--neon);
-  transition: 0.3s ease;
+  color: var(--main_light);
+  text-shadow: 0 0 5px var(--main_light);
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid transparent;
 }
 .about_me a:hover {
-  text-shadow: 0 0 5px var(--main_light);
+  border-bottom: 1px solid var(--neon);
+}
+.about_me p:hover .highlighted {
+  color: var(--neon);
+}
+.show {
+  opacity: 0;
+  position: relative;
+  top: 2em;
+  animation: show 1s ease-in-out forwards;
+}
+.show1 {
+  animation-delay: .2s;
+}
+.show2 {
+  animation-delay: .4s;
+}
+.show3 {
+  animation-delay: .6s;
+}
+.show4 {
+  animation-delay: .8s;
 }
 .skills {
   position: relative;
   top: 20%;
-  left: 10%;
+  left: 20%;
   width: 15vw;
   height: 7vw;
   transform-style: preserve-3d;
@@ -100,4 +123,8 @@
 @keyframes skills {
   0% { transform: perspective(1000px) rotateX(0deg) rotateY(40deg); }
   0% { transform: perspective(1000px) rotateX(360deg) rotateY(40deg); }
+}
+
+@keyframes show {
+  to { opacity: 1; top: 0; }
 }
