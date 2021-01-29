@@ -9,12 +9,11 @@ const parallax = (e) => {
     const h = window.innerHeight/2;
     const mouse_w = e.clientX;
     const mouse_h = e.clientY;
-    const pos1 = `${50 - (mouse_w - w) * 0.07}% ${50 - (mouse_h - h) * 0.10}%`;
-    const pos2 = `${50 - (mouse_w - w) * 0.05}% ${50 - (mouse_h - h) * 0.07}%`;
-    const pos3 = `${50 - (mouse_w - w) * 0.04}% ${50 - (mouse_h - h) * 0.04}%`;
-    const pos4 = `${50 - (mouse_w - w) * 0.02}% ${50 - (mouse_h - h) * 0.01}%`;
+    const pos1 = `${50 - (mouse_w - w) * 0.05}% ${50 - (mouse_h - h) * 0.05}%`;
+    const pos2 = `${50 + (mouse_w - w) * 0.04}% ${50 - (mouse_h - h) * 0.04}%`;
+    const pos3 = `${50 - (mouse_w - w) * 0.03}% ${50 + (mouse_h - h) * 0.03}%`;
+    const pos4 = `${50 + (mouse_w - w) * 0.02}% ${50 + (mouse_h - h) * 0.02}%`;
     const final_position = `${pos1}, ${pos2}, ${pos3}, ${pos4}`;
-    console.log(final_position);
     el.style.backgroundPosition = final_position;
   } 
 }

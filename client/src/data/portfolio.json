@@ -60,7 +60,14 @@
     "keywords": "2020 html sass scss nodejs landing page javascript js rwd responsive api bem bootstrap dom events promise",
     "img": "/portfolio/project19.png",
     "url": "https://freefrogs.github.io/Homework/",
-    "desc": "Training project as a part of Daftacademy Front-end Level UP 2020. Simple landing page with adaptation to different screen sizes, connect and get data from external APIs."
+    "desc": "Training project as a part of Daftacademy Front-end Level UP 2020. Simple landing page with adaptation to different screen sizes, connect and get data from external APIs (base on webpack)."
+  },
+  {
+    "id": 21,
+    "keywords": "2020 html sass scss nodejs landing page javascript js rwd responsive dom events babel webpack",
+    "img": "/portfolio/project14.jpg",
+    "url": "https://freefrogs.github.io/WarsztatyDIY/",
+    "desc": "Simple landing page with adaptation to different screen sizes base on webpack."
   },
   {
     "id": 10,

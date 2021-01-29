@@ -1,16 +1,86 @@
 [
   {
     "id": 1,
-    "keywords": "",
-    "img": "/portfolio/project1.png",
-    "url": "",
-    "desc": ""
+    "keywords": "bg background parallax mouse move touch move",
+    "img": "/animations/anim1.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/1",
+    "desc": "Christmas parallax animation, moving background with mouse position"
   },
   {
     "id": 2,
-    "keywords": "",
-    "img": "/portfolio/project1.png",
-    "url": "",
-    "desc": ""
+    "keywords": "text mouse move touch move shadow header",
+    "img": "/animations/anim2.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/",
+    "desc": "Header animation, text with two shadow moving with mouse position"
+  },
+  {
+    "id": 3,
+    "keywords": "text paragraph keyframes letters words intro color change opacity change",
+    "img": "/animations/anim3.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/2",
+    "desc": "Intro animation, the text of the first paragraph appears letter by letter and the second paragraph appears word by word"
+  },
+  {
+    "id": 4,
+    "keywords": "loader keyframes shape spin spinner",
+    "img": "/animations/anim4.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/3",
+    "desc": "Three types of loaders based on infinite keyframes"
+  },
+  {
+    "id": 5,
+    "keywords": "bg background animation svg drawing path color change",
+    "img": "/animations/anim5.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/4",
+    "desc": "Intro animation, lines forming hands. Animation based on svg path & keyframes"
+  },
+  {
+    "id": 6,
+    "keywords": "bg background animation svg drawing path color change",
+    "img": "/animations/anim6.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/5",
+    "desc": "Intro animation, lines forming ballerin. Animation based on svg path & keyframes"
+  },
+  {
+    "id": 7,
+    "keywords": "header animation svg drawing text gradient opacity change input",
+    "img": "/animations/anim7.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/6",
+    "desc": "Header animation, lines drawing any word from input. Animation based on svg text & gradient and infinite keyframes"
+  },
+  {
+    "id": 8,
+    "keywords": "card animation border border-radius move shape rotate input",
+    "img": "/animations/anim8.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/7",
+    "desc": "Cards animation, you can choose from three types of border. Animation based on border-radius property and infinite keyframes"
+  },
+  {
+    "id": 9,
+    "keywords": "background animation hero animation clip-path mouse move touch move css variables",
+    "img": "/animations/anim9.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/8",
+    "desc": "Interesting background animation based on clip-path property & css variables, hidden background that revealing in the area of the mouse pointer"
+  },
+  {
+    "id": 10,
+    "keywords": "card animation interval setinterval perspective 3d effect rotate hover flip hidden",
+    "img": "/animations/anim10.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/9",
+    "desc": "Cards animation base on setInterval function & perspective, cards flip one by one with nice 3d effect. They reveal hidden content when flip"
+  },
+  {
+    "id": 11,
+    "keywords": "card animation interval setinterval perspective 3d effect rotate hover flip hidden box-reflect reflect reflection",
+    "img": "/animations/anim11.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/10",
+    "desc": "Cards animation base on setInterval function, perspective & webkit-box-reflect, cards bend away one by one with nice 3d effect. They reveal hidden content when move"
+  },
+  {
+    "id": 12,
+    "keywords": "card animation hover hidden product card background hover",
+    "img": "/animations/anim12.jpg",
+    "url": "https://freefrogs.github.io/Animations/#/11",
+    "desc": "Cards animation base on filters, gradients, transition & keyframes. Cards reveal hidden content when hovered. On each card you will find buttons that allow you to change item color"
   }
 ]

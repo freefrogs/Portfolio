@@ -55,7 +55,7 @@ class Animations extends React.Component {
           <input
             type="text"
             value={this.state.term}
-            placeholder="nav, svg, slider etc."
+            placeholder="text, svg, slider etc."
             onChange={ this.onInputChange  }
           />
           <div className="projects_box">
