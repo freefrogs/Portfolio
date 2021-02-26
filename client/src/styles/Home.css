@@ -1,25 +1,76 @@
-@keyframes text {
-  to { transform: translateX(0); }
+@keyframes name {
+  100% {stroke-dashoffset: 0;}
 }
-
+@keyframes letters {
+  100% { top: 0; opacity: 1;}
+}
 .home .jello_title {
   position: relative;
   padding-left: 5%;
   top: 20%;
-  transform: translate(-50%,-50%);
-  animation: text 1.5s ease-in-out forwards;
 }
-.parallax {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-image: url(../image/sparrow.png), url(../image/grass.png), url(../image/birds.png), url(../image/bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 110% auto;
-  background-position: 50% 50%;
-  transition: 0.2s ease;
+.home .jello_title h1 span {
+  position: relative;
+  transition: 0.4s;
+  top: -2rem;
+  opacity: 0;
+  animation: letters 1s ease-in-out both;
+  text-shadow: 0 0 20px var(--details);
 }
+.home .jello_title h1 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.home .jello_title h1 span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.home .jello_title h1 span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.home .jello_title h1 span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.home .jello_title h1 span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.home .jello_title h1 span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.home .jello_title h1 span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.home .jello_title h1 span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.home .jello_title h1 span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.home .jello_title h1 span:nth-child(11) {
+  animation-delay: 1s;
+}
+.home .jello_title h1 span:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.home .jello_title h1 span:hover {
+  top: 0;
+  opacity: 1;
+}
+.myName {
+  display: inline-block;
+  height: 9rem;
+  width: auto;
+  vertical-align: text-top;
+  /* -webkit-box-reflect: below 10px linear-gradient(transparent 70%, var(--main_dark)); */
+}
+.name_path {
+  fill: transparent;
+  stroke-width: 1px;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  animation: name 3.5s ease-in-out forwards;
+  transition: 0.5s;
+  
+}
+
 @media (max-width: 500px) {
   .home .jello_title {
     padding-left: 0;
@@ -33,5 +84,8 @@
   }
   .home .button {
     margin-top: 40px;
+  }
+  .myName {
+    height: 6rem;
   }
 }

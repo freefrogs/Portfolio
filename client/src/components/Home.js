@@ -2,44 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
-const parallax = (e) => {
-  const el = document.querySelector('.parallax');
-  if (!(window.innerWidth < 500)) {
-    const w = window.innerWidth/2;
-    const h = window.innerHeight/2;
-    const mouse_w = e.clientX;
-    const mouse_h = e.clientY;
-    const pos1 = `${50 - (mouse_w - w) * 0.05}% ${50 - (mouse_h - h) * 0.05}%`;
-    const pos2 = `${50 + (mouse_w - w) * 0.04}% ${50 - (mouse_h - h) * 0.04}%`;
-    const pos3 = `${50 - (mouse_w - w) * 0.03}% ${50 + (mouse_h - h) * 0.03}%`;
-    const pos4 = `${50 + (mouse_w - w) * 0.02}% ${50 + (mouse_h - h) * 0.02}%`;
-    const final_position = `${pos1}, ${pos2}, ${pos3}, ${pos4}`;
-    el.style.backgroundPosition = final_position;
-  } 
-}
-
 const Home = () => {
   return (
-    <div className="container home" onMouseMove={parallax}>
-      <div className="parallax"></div>
+    <div className="container home">
       <div className="jello_title">
-        <h1>
+        <h1 className="firstLine">
           <span>H</span>
           <span>i</span>
-          <span>!</span>
-          <br />
+          <span>!</span>&nbsp;
           <span>I</span>
           <span>'</span>
-          <span>m</span>&nbsp;
-          <span>J</span>
-          <span>u</span>
-          <span>s</span>
-          <span>t</span>
-          <span>y</span>
-          <span>n</span>
-          <span>a</span>
-          <span>,</span>
-          <br />
+          <span>m</span>
+          <svg className="myName" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 45">
+          <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style={{stopColor: 'rgb(94,45,150)', stopOpacity: 1}} />
+              <stop offset="100%" style={{stopColor: 'rgb(255,170,33)', stopOpacity: 1}} />
+            </linearGradient>
+          </defs>
+            <path className="name_path" stroke="url(#grad)" d="M15.2266 0.4107c3.0103,1.7996 6.9884,2.4464 9.3236,0 -3.6187,15.6229 -2.9719,20.4269 -2.0632,31.5502 2.1816,26.7019 -18.6923,3.9445 -6.0285,-3.6475 6.2537,-3.7491 10.8371,-7.0318 12.2519,-11.4352 -0.7999,5.5158 -1.0459,14.4484 5.2626,15.0794 8.0195,0.8021 6.7958,-15.9224 6.7958,-15.0915 0,6.4994 -0.4634,21.3184 7.0404,12.0817 1.6034,-1.9736 2.5682,-8.4991 2.5682,-11.9996 0,-0.1161 -0.6173,4.3703 4.4349,4.5497 11.5549,0.4104 9.6023,10.5418 -2.9549,10.5418 -3.2368,0 14.4458,-7.9201 15.3444,-10.4645 0.7061,-1.9994 0.4431,-26.4722 0.5048,-19.9515l0.0477 5.0433c0.0524,5.5442 19.0683,3.8353 -6.9122,3.9107 10.449,-0.6016 5.3985,13.1741 5.8796,18.4757 0.2854,3.1452 8.6715,4.9301 9.8152,-1.0674 4.3646,-22.8881 -0.0847,-5.4305 3.7684,1.8987 1.6884,3.2117 5.4104,2.867 8.5067,-0.1293 1.4426,-1.3959 1.9049,-10.6021 1.5623,-12.8893 -0.3494,-2.3332 0.0782,24.5983 -0.4236,25.3839 -2.6731,4.1842 -9.6979,1.299 -13.9473,-0.4443 -8.8668,-3.6378 12.7107,-4.0589 16.5887,-7.7426 3.2842,-3.1198 3.9364,-20.0607 4.271,-16.7531l0.9038 14.6476c0.1299,-8.8645 8.7337,-21.1259 14.2068,-11.8558 1.5348,2.5997 -7.0529,11.874 2.4678,11.8558 1.9883,-0.0038 7.0842,0.3065 9.5778,0 -14.9527,1.4778 -7.9819,-15.0915 -2.2069,-15.0915 2.8295,0 5.5516,5.2648 4.8229,0.6086 -0.6669,-4.262 -1.3867,11.3458 -0.9972,13.7367 0.1641,1.0079 3.3952,1.2356 3.9971,-1.1727"/>
+          </svg>
+        </h1>
+        <h1>
           <span>w</span>
           <span>e</span>
           <span>b</span>&nbsp;

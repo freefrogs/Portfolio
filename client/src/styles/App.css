@@ -104,12 +104,12 @@ ul {
 .jello_title h1 {
   font-size: 3rem;
   letter-spacing: 0.2rem;
+  cursor: default;
 }
 
 .jello_title h1 span {
   display: inline-block;
   transition: .5s ease-in-out;
-  cursor: default;
 }
 
 .jello_title h1 span:hover {
