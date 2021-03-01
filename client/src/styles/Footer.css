@@ -2,13 +2,12 @@
   position: absolute;
   top: 95vh;
   padding-right: 2%;
-  text-align: right;
+  text-align: center;
   width: 90%;
   left: 10%;
 }
 .footer_p {
   font-size: 0.8rem;
-  text-align: right;
 }
 
 @media (max-width: 500px) {
