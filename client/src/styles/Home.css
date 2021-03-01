@@ -4,6 +4,22 @@
 @keyframes letters {
   100% { top: 0; opacity: 1;}
 }
+@keyframes sphere1 {
+  70% {transform: translate(70vw) scale(1.5);}
+  100% {transform: translate(110vw) scale(1);}
+}
+@keyframes sphere_path1 {
+  50% {stroke: var(--neon);}
+  100% {transform: rotate(500deg); stroke: var(--main_light);}
+}
+@keyframes sphere2 {
+  100% {transform: translate(-110vw, -10vh);}
+}
+@keyframes sphere_path2 {
+  50% {stroke: var(--details);}
+  100% {transform: rotate(-550deg); stroke: var(--main_light);}
+}
+
 .home .jello_title {
   position: relative;
   padding-left: 5%;
@@ -59,7 +75,6 @@
   height: 9rem;
   width: auto;
   vertical-align: text-top;
-  /* -webkit-box-reflect: below 10px linear-gradient(transparent 70%, var(--main_dark)); */
 }
 .name_path {
   fill: transparent;
@@ -68,9 +83,44 @@
   stroke-dashoffset: 550;
   animation: name 3.5s ease-in-out forwards;
   transition: 0.5s;
-  
 }
-
+.sphere {
+  height: auto;
+  position: absolute;
+  z-index: -10;
+  transition: .5s;
+}
+.sphere_path {
+  stroke: var(--main_light);
+  transform-origin: 50% 50%;
+  fill: none;
+}
+.sphere1 {
+  width: 10vw;
+  left: -15%;
+  top: 70%;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 60%, var(--main_dark));
+  animation: sphere1 6s linear infinite both;
+  animation-delay: 3s;
+}
+.sphere_path1 {
+  animation: sphere_path1 6s linear infinite both;
+  animation-delay: 3s;
+  stroke-width: 2px;
+}
+.sphere2 {
+  width: 7vw;
+  top: 15%;
+  left: 100%;
+  animation: sphere2 5.5s linear infinite both;
+  animation-delay: 3.5s;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 60%, var(--main_dark));
+}
+.sphere_path2 {
+  stroke-width: 3px;
+  animation: sphere_path2 5.5s linear infinite both;
+  animation-delay: 3.5s;
+}
 @media (max-width: 500px) {
   .home .jello_title {
     padding-left: 0;
@@ -87,5 +137,22 @@
   }
   .myName {
     height: 6rem;
+  }
+  .sphere1 {
+    width: 15vw;
+    top: 80%;
+    left: -17%;
+    animation-duration: 4s;
+  }
+  .sphere_path1 {
+    animation-duration: 4s;
+  }
+  .sphere2 {
+    width: 20vw;
+    top: 20%;
+    animation-duration: 3.5s;
+  }
+  .sphere_path2 {
+    animation-duration: 3.5s;
   }
 }
