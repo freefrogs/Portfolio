@@ -72,10 +72,19 @@ body {
   min-width: 350px;
 }
 
-a {
+a, button {
   text-decoration: none;
   color: var(--main_light);
   font-family: var(--main_font);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 ul {
@@ -171,6 +180,10 @@ ul {
   background-image: linear-gradient(to top, transparent, var(--details));
   animation: button4 1s linear infinite;
   animation-delay: .5s;
+}
+
+.hide {
+  display: none;
 }
 
 @media (max-width: 500px) {

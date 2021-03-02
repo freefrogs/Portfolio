@@ -10,7 +10,8 @@ const Sphere = (props) => {
         />
     </svg>
   )
-}
+};
+
 const Home = () => {
   return (
     <div className="container home">

@@ -1,0 +1,56 @@
+.game_box {
+  padding: 10px;
+}
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board p {
+  text-align: center;
+}
+.board .score {
+ padding: 0 20px 0 10px;
+}
+.board .button {
+  margin: 0;
+}
+.holes_box {
+  width: 40%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.hole {
+  width: 100%;
+  cursor: pointer;
+}
+.frog path {
+  fill: var(--details);
+  stroke: var(--neon);
+  transition: 0.1s;
+  stroke-width: 0.5px;
+}
+.changeColor .frog path {
+  fill: var(--neon);
+  stroke: var(--details);
+}
+.score {
+  margin: 1em 0;
+  font-size: 1.5rem;
+}
+.description span {
+  text-decoration: underline;
+  text-decoration-color: var(--details);
+  color: var(--neon);
+}
+.score span {
+  color: var(--neon);
+}
+
+@media (max-width: 500px) {
+  .holes_box {
+    width: 70%;
+  }
+}

@@ -1,0 +1,30 @@
+.pageNotFound {
+  text-align: center;
+  padding: 20px 10px;
+}
+.pageNotFound .question {
+  margin: 1em 0;
+  font-size: 1.5rem;
+}
+.pageNotFound .button {
+  margin: 20px;
+}
+.pageNotFound .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .pageNotFound {
+    padding-top: 40px;
+  }
+  .pageNotFound h1 {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  .pageNotFound .question {
+    font-size: 1.2rem;
+  }
+}
