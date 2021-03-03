@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Nav from './Nav';
+import Social from './Social';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
@@ -17,6 +18,7 @@ class App extends React.Component {
         <BrowserRouter>
           <div>
             <Nav />
+            <Social />
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/aboutMe" exact component={AboutMe} />

@@ -1,0 +1,23 @@
+.social_box {
+  width: 100px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.social_box a {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+}
+.social-icon path, .social-icon circle  {
+  fill: var(--details);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.social-icon:hover path, .social-icon:hover circle {
+  opacity: 1;
+}
+.social-icon polygon {
+  fill: var(--main_dark);
+}
