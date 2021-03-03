@@ -1,0 +1,135 @@
+@keyframes contactTitle {
+  to {transform: translateY(0); opacity: 1;}
+}
+@keyframes contactPar {
+  to {transform: translateX(0); opacity: 1;}
+}
+@keyframes fly {
+  100% {transform: scaleX(var(--s)) rotate(var(--f)) translate(var(--x),var(--y))}
+}
+.contactMe .jello_title {
+  transform: translateY(-200px);
+  opacity: 0;
+  animation: contactTitle 1.5s ease-in-out forwards;
+  -webkit-box-reflect: below -20px linear-gradient(transparent 60%, var(--main_dark));
+}
+.contactMe {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.contactMe p {
+  margin: 5px 0;
+  transform: translateX(-200px);
+  opacity: 0;
+  animation: contactTitle 1.5s ease-in-out forwards;
+}
+.contactMe p:first-child {
+  animation-delay: 0.2s;
+}
+.contactMe p:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+.contactMe p:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+.contactMe p:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+.envelope {
+  width: 100px;
+  height: auto;
+  position: relative;
+  top: 15px;
+}
+.envelope path, .envelope polyline {
+  fill: none;
+  stroke: var(--main_light);
+  transition: 0.4s;
+}
+.envelope path {
+  stroke-dasharray: 5 5;
+}
+.envelope:hover path, .envelope:hover polyline {
+  stroke: var(--neon);
+}
+.plane {
+  --s: 1;
+  width: 50px;
+  position: absolute;
+  animation: fly var(--t) ease-in-out infinite;
+  animation-delay: var(--t2);
+  z-index: -1;
+  -webkit-box-reflect: below 0px linear-gradient(transparent 50%, var(--main_dark));
+  opacity: 0.5;
+}
+.plane:nth-of-type(1) {
+  transform-origin: 50% 50%;
+  transform: rotate(-35deg);
+  top: 120vh;
+  --x: 100vw;
+  --y: -150vh;
+  --f: -5deg;
+  --t: 3.5s;
+  --t2: 0.5s;
+}
+.plane:nth-of-type(2) {
+  left: -10vw;
+  --x: 110vw;
+  --y: 10vh;
+  --f: -5deg;
+  --t: 3.5s;
+}
+.plane:nth-of-type(3) {
+  left: -10vw;
+  top: 60vh;
+  --x: 110vw;
+  --y: 10vh;
+  --f: -7deg;
+  --t: 4s;
+  --t2: 1s;
+}
+.plane:nth-of-type(4) {
+  transform-origin: 50% 50%;
+  transform: rotate(60deg);
+  left: 10vw;
+  top: -10vh;
+  --x: 150vh;
+  --y: 0;
+  --f: 55deg;
+  --t: 2s;
+  --t2: 1.2s;
+}
+.plane:nth-of-type(5) {
+  transform-origin: 50% 50%;
+  transform: scaleX(-1) rotate(15deg);
+  left: 110vw;
+  top: 20vh;
+  --s: -1;
+  --x: 120vw;
+  --y: 20vw;
+  --f: -5deg;
+  --t: 3.2s;
+  --t2: 0.7s;
+}
+.plane:nth-of-type(6) {
+  transform-origin: 50% 50%;
+  transform: scaleX(-1) rotate(0deg);
+  left: 110vw;
+  top: 70vh;
+  --s: -1;
+  --x: 120vw;
+  --y: -20vw;
+  --f: -15deg;
+  --t: 4s;
+  --t2: 1.3s;
+}
+.plane polyline {
+  fill: none;
+  stroke: var(--main_light);
+}
+.plane:nth-of-type(2n) polyline {
+  stroke: var(--neon);
+}
+.plane:nth-of-type(3n) polyline {
+  stroke: var(--details);
+}
