@@ -23,7 +23,7 @@
 .home .jello_title {
   position: relative;
   padding-left: 5%;
-  top: 20%;
+  padding-top: 12%;
 }
 .home .jello_title h1 span {
   position: relative;
@@ -125,7 +125,7 @@
   .home .jello_title {
     padding-left: 0;
     padding-right: 5%;
-    top: 30%;
+    padding-top: 30%;
     text-align: right;
   }
   .home .jello_title p {

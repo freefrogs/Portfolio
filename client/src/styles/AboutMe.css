@@ -99,25 +99,30 @@
   margin-right: 25%;
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .about_me {
     grid-template-columns: 1fr;
   }
+  .about_me .jello_title p {
+    padding-right: 5%;
+  }
+}
+@media (max-width: 500px) {
   .about_me .jello_title {
     padding-left: 0;
     padding-right: 5%;
+    padding-top: 12%;
     text-align: right;
   }
   .about_me .jello_title p {
     font-size: 0.8rem;
+    padding-right: 0%;
   }
   .skills {
     position: relative;
     top: 0;
-    left: 25%;
+    left: 45%;
     width: 30vw;
-    height: 25vw;
   }
   .skills_title {
     font-size: 1em;

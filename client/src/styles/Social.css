@@ -3,6 +3,7 @@
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
+  z-index: 30;
 }
 .social_box a {
   display: block;
@@ -20,4 +21,19 @@
 }
 .social-icon polygon {
   fill: var(--main_dark);
+}
+@media (max-width: 500px) {
+  .social_box {
+    width: 150px;
+    transform: translateY(0);
+    top: 0%;
+    left: calc(100vw - 150px);
+    text-align: right;
+    padding: 5px;
+  }
+  .social_box a {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+  }
 }

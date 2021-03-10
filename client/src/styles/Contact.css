@@ -133,3 +133,22 @@
 .plane:nth-of-type(3n) polyline {
   stroke: var(--details);
 }
+
+@media (max-width: 500px) {
+  .contactMe {
+    padding-top: 20%;
+    padding-right: 5%;
+  }
+  .contactMe p {
+    text-align: right;
+  }
+  .contactMe .jello_title {
+    margin-bottom: 20px;
+  }
+  .contactMe a {
+    display: block;
+  }
+  .plane:nth-of-type(2) {
+    --t: 2s;
+  }
+}

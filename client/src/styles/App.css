@@ -52,10 +52,8 @@
   --main_light: rgb(255,255,255);
   --shadow: rgb(206,200,205);
   --neon: rgb(255,170,33);
-  /* --details: rgb(109,15,128); */
   --details: rgb(94,45,150);
 }
-
 * {
 	box-sizing: border-box;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -63,69 +61,58 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: var(--main_font);
   color: var(--main_light);
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--main_dark);
   min-width: 350px;
 }
-
 a, button {
   text-decoration: none;
   color: var(--main_light);
   font-family: var(--main_font);
 }
-
 button {
   border: none;
   outline: none;
   background-color: inherit;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
-
 ul {
   list-style: none;
 }
-
 .app {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
 }
-
 .container {
   width: 90%;
   margin-left: 10%;
   position: relative;
-  height: 100vh;
-  padding-bottom: 5vh;
+  min-height: 95vh;
+  height: auto;
   overflow: hidden;
 }
-
 .highlighted {
   transition: 0.4s ease-in-out;
 }
-
 .jello_title h1 {
   font-size: 3rem;
   letter-spacing: 0.2rem;
   cursor: default;
 }
-
 .jello_title h1 span {
   display: inline-block;
   transition: .5s ease-in-out;
 }
-
 .jello_title h1 span:hover {
   animation: jello 0.9s ease-in-out both;
   text-shadow: 0 0 20px var(--neon);
 }
-
 .button {
   display: inline-block;
   padding: 15px 30px;
@@ -134,12 +121,10 @@ ul {
   overflow: hidden;
   transition: .2s ease-out;
 }
-
 .button:hover {
   background-color: var(--details);
   box-shadow: 0 0 10px var(--details), 0 0 40px var(--details), 0 0 80px var(--details); 
 }
-
 .button span:nth-child(1) {
   position: absolute;
   top: 0;
@@ -149,7 +134,6 @@ ul {
   background-image: linear-gradient(to right, transparent, var(--details));
   animation: button1 1s linear infinite;
 }
-
 .button span:nth-child(2) {
   position: absolute;
   top: 0;
@@ -160,7 +144,6 @@ ul {
   animation: button2 1s linear infinite;
   animation-delay: .5s;
 }
-
 .button span:nth-child(3) {
   position: absolute;
   bottom: 0;
@@ -170,7 +153,6 @@ ul {
   background-image: linear-gradient(to left, transparent, var(--details));
   animation: button3 1s linear infinite;
 }
-
 .button span:nth-child(4) {
   position: absolute;
   top: 0;
@@ -181,12 +163,14 @@ ul {
   animation: button4 1s linear infinite;
   animation-delay: .5s;
 }
-
 .hide {
   display: none;
 }
-
 @media (max-width: 500px) {
+  .container {
+    margin-left: 0%;
+    width: 100%;
+  }
   .jello_title h1 {
     font-size: 2rem;
     letter-spacing: 0;

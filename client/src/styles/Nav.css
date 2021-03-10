@@ -7,7 +7,7 @@ nav .menu {
   position: fixed;
   left: -100px;
   top: -100px;
-  z-index: 20;
+  z-index: 35;
   width: 200px;
   height: 200px;
   background: var(--details);
@@ -28,6 +28,11 @@ nav .hamburger {
   transition: .5s ease-in-out;
   box-shadow: 0 0 10px var(--neon);
 }
+nav .menu:hover .hamburger,
+nav .menu:hover .hamburger::after,
+nav .menu:hover .hamburger::before {
+  background-color: var(--neon);
+}
 .hamburger::after,
 .hamburger::before {
   content: '';
@@ -38,6 +43,7 @@ nav .hamburger {
   background-color: var(--main_light);
   transition: .5s ease-in-out;
   box-shadow: 0 0 10px var(--neon);
+  transition: .5s ease-in-out;
 }
 .hamburger::before {
   top: -10px;
@@ -72,7 +78,7 @@ nav ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-300%);
+  transform: translate(-50%,-400%);
   opacity: 1;
   transition: .25s 0s ease-in-out;
 }
@@ -85,6 +91,10 @@ nav .link {
   font-size: 3rem;
   text-shadow: 0 0 10px var(--neon);
   margin: 0.5rem 0;
+  transition: .4s;
+}
+nav .link:hover {
+  color: var(--neon);
 }
 
 @media (max-width: 500px) {

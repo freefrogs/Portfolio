@@ -29,10 +29,10 @@
   text-align: center;
 }
 .portfolio .jello_title {
-  padding-bottom: 20px;
+  padding: 0 0 20px;
 }
 .projects_box {
-  margin: 30px 0;
+  margin: 30px 0 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -118,6 +118,10 @@
 }
 @media (max-width: 500px) {
   .project {
-    width: 80vw;
+    width: 70vw;
+    margin-right: 0px;
+  }
+  .portfolio .jello_title {
+    padding: 15% 0 20px;
   }
 }

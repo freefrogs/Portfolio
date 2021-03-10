@@ -1,17 +1,7 @@
 .footer {
-  position: absolute;
-  top: 95vh;
-  padding-right: 2%;
   text-align: center;
-  width: 90%;
-  left: 10%;
+  padding: 10px 0;
 }
 .footer_p {
   font-size: 0.8rem;
-}
-
-@media (max-width: 500px) {
-  .footer_p {
-    text-align: center;
-  }
 }
